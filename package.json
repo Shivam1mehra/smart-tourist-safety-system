@@ -1,0 +1,25 @@
+{
+  "name": "smart-tourist-safety-system",
+  "version": "1.0.0",
+  "description": "AI-powered Tourist Safety Monitoring System with Blockchain Digital ID and Geo-fencing",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && node server.js",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd client && npm install && cd ../server && npm install",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "tourist-safety",
+    "blockchain",
+    "geo-fencing",
+    "AI",
+    "emergency-response"
+  ],
+  "author": "Smart Tourism Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
