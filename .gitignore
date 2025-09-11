@@ -5,7 +5,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # Production builds
-client/build/
 server/dist/
 
 # Environment variables
@@ -78,6 +77,7 @@ dist
 # Gatsby files
 .cache/
 public
+!client/public/
 
 # Storybook build outputs
 .out
